@@ -1,0 +1,62 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #c2c2c2;
+  background-color: rgb(2, 32, 32);
+  box-shadow: 1px 2px 10px black;
+}
+#inp{
+  font-size: 40px;
+}
+
+button {
+  width: 130px;
+  height: 65px;
+  border: 1px solid #9b9a9a;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 10px 0;
+  background-color: coral;
+  color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-group-item:hover {
+  background-color: gray;
+  color: white;
+}
+
+.number-content button {
+  color: black;
+  background-color: white;
+}
+.number-content button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#equal-to {
+  height: 100%;
+}
+
+.popup {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 2px 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: 0.4s, top 0.4s;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
